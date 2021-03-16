@@ -1,11 +1,22 @@
 package com.JavaProjectWithGit.controller;
 
-public class Controller {
+public class Controller extends Class2{
+
+	
+
+	Controller(int rollnumber, String studentName) {
+		super(rollnumber, studentName);
+		// TODO Auto-generated constructor stub
+	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		System.out.println("this is controller");
+		Class2 obj=new Class2(101,"Dhananjay Lavate");
+		obj.Division();
+		
+		
+		
+		
+		
 	}
 
 }
