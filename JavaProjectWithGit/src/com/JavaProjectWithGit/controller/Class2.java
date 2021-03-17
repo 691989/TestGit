@@ -16,7 +16,18 @@ public class Class2 {
 		System.out.println("Class "+div);
 		System.out.println("Student Roll Number:"+rollnumber);
 
-		System.out.println("Student Name"+studentName);
+		System.out.println("Student Name:"+studentName);
 	}
+	
+	void print(int id,String name) {
+		System.out.println(id);
+		System.out.println(name);
+	}
+	
+	void print(String surname) {
+		System.out.println(surname);
+	}
+	
+	
 	
 }
